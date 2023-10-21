@@ -1,0 +1,644 @@
+@media (min-width: 1200px){
+    .container{
+        transition: .3s;
+    }
+    
+    .header__btn a{
+        transition: .3s;
+    }
+
+    .history__images img{
+        transition: .3s;
+    }
+    
+}
+
+@media (max-width: 1200px){
+    .container{
+        width: 80%;
+        transition: .3s;
+    }
+    .header__btn a{
+        font-size: 8px;
+        transition: .3s;
+    }
+
+    /*--- footer --- */
+
+    .footer__item{
+        width: 270px;
+        height: 340px;
+        transition: .3s;
+    }
+
+    .text{
+        font-size: 23px;
+        transition: .3s;
+    }
+
+    /*--- history ---*/
+
+    .history__title{
+        font-size: 40px;
+        transition: .3s;
+    }
+
+    .history__images img{
+        width: 80%;
+        transition: .3s;
+    }
+
+    .history__text{
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0px 40px;
+    }
+
+    /*---- dishes --- */
+
+    .dishes__content{
+        width: 790px;
+        margin: 0 auto;
+        transition: .3s;
+    }
+
+    .dishes__img img{
+        transition: .3s;
+        width: 350px;
+    }
+
+    .dishes__icon img{
+        width: 105px;
+        height: 107px;
+    }
+    
+    .dishes__menu__item{
+        width: 420px;
+        transition: .3s;
+        padding-left: 20px;
+    }
+
+    .dishes__discr{
+        font-size: 18px;
+        width: 100%;
+    }
+    
+    .dashed__line{
+        width: 80px;
+    }
+
+    /* --- gamburger ---*/
+
+    .menu{
+        height: 860px;
+    }
+
+    .menu__item{
+        height: 380px;
+        transition: .3s;
+        width: 270px;
+    }
+
+    .menu__item__icon{
+        padding-top: 50px;
+    }
+
+    .menu__item__icon img{
+        width: 150px;
+    }
+
+    .circle{
+        width: 77px;
+        height: 23px;
+        padding: 26px 0px;
+        border: 5px solid #fff;
+        font-size: 20px;
+        top: 138px;
+        left: 147px;
+    }
+
+    .menu__title__text{
+        font-size: 22px;
+    }
+
+    .menu__title__subtext{
+        font-size: 13.5px;
+    }
+
+    /*---- gallery ---*/
+
+    .gallery__block{
+        align-items: center;
+        height: 400px;
+    }
+
+    .gallery__item{
+        width: 377px;
+    }
+
+    .table{
+        width: 100%;
+        height: auto;
+    }
+
+    .two__photos img{
+        width: 45%;
+        height: auto;
+    }
+
+    .two__photos{
+        width: 376px;
+    }
+
+    /* ---- CHEF ---- */
+
+    .chef__images img {
+        width: 30%;
+    }
+
+    .reservation{
+        height: 500px;
+    }
+}
+
+@media (max-width: 1100px){
+
+    .container{
+        margin: 0 auto;
+        width: 80%;
+        transition: .3s;
+    }
+
+    .header__navigation{
+        display: none;
+    }
+    
+    .header__menu__hide{
+        display: block;
+    }
+
+    /*------ FOOTER ------*/
+
+    .footer__container{
+        margin: 0 auto;
+    }
+    
+    .footer__item{
+        width: 230px;
+        transition: .3s;
+    }
+
+    .text{
+        font-size: 18px;
+        transition: .3s;
+
+    }
+
+    /* --- history ---*/
+
+    .history__footer__container{
+        display: block;
+        padding: 70px;
+        transition: .3s;
+    }
+
+    .history__footer__info{
+        margin: 0 auto;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .history__footer__btn {
+        text-align: center;
+    }
+
+    /* ---- dishes ---*/
+
+    .dishes__content{
+        width: 700px;
+    }
+
+    .dishes__menu__item{
+        width: auto;
+    }
+
+    .dishes__discr{
+        width: 200px;
+    }
+
+    .dashed__line{
+        display: none;
+    }
+
+    /* ---- gamburger ---- */
+
+    .menu__item{
+        height: 310px;
+        width: 230px;
+        transition: .3s;
+    }
+
+    .special{
+        font-size: 10px;
+        padding: 6px;
+    }
+
+    .menu__item__icon{
+        padding-top: 30px;
+    }
+
+    .menu__item__icon img{
+        width: 110px;
+    }
+
+    .circle{
+        width: 60px;
+        height: 20px;
+        padding: 20px 0px;
+        border: 3px solid #fff;
+        font-size: 20px;
+        top: 92px;
+        left: 124px;
+    }
+
+    .menu__title__text{
+        font-size: 18px;
+    }
+
+    .menu__title__subtext{
+        font-size: 13px;
+        width: 150px;
+        margin: 0 auto;
+        padding-bottom: 25px;
+    }
+
+    /* --- review --- */
+
+    .review__content{
+        max-width: 400px;
+    }
+
+    .review__title{
+        max-width: 400px;
+    }
+
+    /* --- gallery --*/
+
+    .gallery{
+        height: 950px;
+    }
+
+    .gallery__block{
+        display: block;    
+    }
+
+    .gallery__item{
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container{
+        width: 390px;
+    }
+
+    .header__content{
+        margin: 25px 15px;
+    }
+
+    .header__logo img{
+        width: 45px;
+    }
+
+    .header__navigation{
+        display: none;
+    }
+    
+    /* --- footer -- */ 
+
+    .footer {
+        height: 1610px;
+    }
+
+    .footer__container{
+        width: 380px;
+    }
+
+    .footer__text{
+        font-size: 30px;
+        margin: 0px;
+    }
+    
+    .footer__text__big{
+        font-size: 40px;
+    }
+
+    .footer__discr{
+        max-width: 150px;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .footer__elements{
+        display: block;
+    }
+
+    .footer__item{
+        margin: 0 auto;
+        width: 300px;
+    }
+    
+    .footer__icon{
+        padding-top: 30px;
+    }
+
+    .footer__item__title{
+        font-size: 26px;
+    }
+
+    .footer__item__discr{
+        font-size: 22px;
+    }
+
+    .history__title{
+        min-width: 200px;
+    }
+
+    .history__container{
+        display: block;
+    }
+
+    .history__images img {
+        padding-top: 50px;
+    }
+
+    .history__footer__container{
+        padding: 90px 0px;
+    }
+
+    .history__footer__info{
+        max-width: 410px;
+    }
+
+    .history__footer__title{
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .history__footer__text{
+        font-size: 18px;
+    }
+
+    .history__text{
+        min-width: 300px;
+        margin: 0;
+    }
+
+    .history__discr{
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    /* ---- dishes --- */
+
+    .dishes__content{
+        width: 400px;
+    }
+
+    .dishes__img{
+        display: none;
+    }
+
+    .delete__menu{
+        display: none;
+    }
+
+    .menu__block__title{
+        padding-bottom: 100px;
+    }
+
+    .menu__item{
+        min-width: 350px;
+        min-height: 450px;
+        margin: 0 auto;
+    }
+
+    .menu__item__icon img{
+        height: 200px;
+        width: auto;
+    }
+
+    .circle {
+        width: 106px;
+        height: 28px;
+        padding: 38px 0px;
+        border: 7px solid #fff;
+        font-size: 30px;
+        top: 138px;
+        left: 176px;
+    }
+  }
+
+@media (max-width: 300px) {
+    .container{
+        width: 220px;
+    }
+
+    .header__logo img{
+        width: 45px;
+    }
+
+    /* --- footer -- */ 
+
+    .footer {
+        height: 1610px;
+    }
+
+    .footer__container{
+        width: 200px;
+        padding-top: 300px;
+    }
+
+    .footer__text{
+        font-size: 20px;
+        margin: 0px;
+        line-height: 30px;
+    }
+    
+    .footer__text__big{
+        font-size: 35px;
+    }
+
+    .footer__discr{
+        max-width: 150px;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .footer__elements{
+        display: block;
+    }
+
+    .footer__item{
+        margin: 0 auto;
+        width: 200px;
+        height: 300px;
+    }
+    
+    .footer__icon{
+        padding-top: 30px;
+    }
+
+    .footer__item__title{
+        font-size: 17px;
+    }
+
+    .footer__item__discr{
+        font-size: 15px;
+    }
+
+    .history__title{
+        font-size: 25px;
+    }
+
+    .history{
+        margin: 150px 0px 132px;
+    }
+
+    .history__container{
+        display: block;
+        width: 200px;
+        max-height: 700px;
+    }
+
+    .history__images img {
+        padding-top: 50px;
+    }
+
+    .history__footer__container{
+        padding: 90px 0px;
+    }
+
+    .history__footer__info{
+        max-width: 200px;
+    }
+
+    .history__footer__title{
+        font-size: 22px;
+        line-height: 30px;
+        width: 200px;
+    }
+
+    .history__footer__text{
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .history__text{
+        min-width: 200px;
+        margin: 0;
+    }
+
+    .history__discr{
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .history__numbers{
+        width: 200px;
+    }
+
+    .history__count{
+        font-size: 20px;
+    }
+
+    .history__images img{
+        width: 200px;
+        height: auto;
+        margin: 130px 0px 100px;
+    }
+
+    /* ---- dishes --- */
+
+    .dishes__title{
+        font-size: 30px;
+        margin-bottom: 70px;
+    }
+
+    .dishes__content{
+        width: 400px;
+    }
+
+    .dishes__img{
+        display: none;
+    }
+
+    .dishes__icon img{
+        width: 80px;
+        height: auto;
+    }
+
+    .delete__menu{
+        display: none;
+    }
+
+    .dishes__menu__item{
+        width: 200px;
+        padding: 0px;
+    }
+
+    .dishes__discr{
+        width: 130px;
+        display: block;
+        text-align: center;
+        padding-left: 10px;
+    }
+
+    .menu__block__title{
+        padding-bottom: 100px;
+    }
+
+    .menu__item{
+        min-width: 200px;
+        min-height: 450px;
+        margin: 0 auto;
+    }
+
+    .menu__item__icon img{
+        height: 200px;
+        width: auto;
+    }
+
+    .circle {
+        width: 86px;
+        height: 29px;
+        padding: 27px 0px;
+        border: 6px solid #fff;
+        font-size: 30px;
+        top: 140px;
+        left: 120px;
+    }
+
+    .review__content{
+        width: 200px;
+    }
+
+    .review__title{
+        max-width: 200px;
+        margin: 0;
+    }
+
+    .gallery__title{
+        font-size: 30px;
+    }
+
+    .table img{
+        width: 20%;
+        height: auto;
+    }
+  }

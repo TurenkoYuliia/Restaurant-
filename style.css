@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    background: #fff;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header{
+    position: absolute;
+    width: 100%;
+}
+
+.header__menu__hide{
+    display: none;
+}
+
+.header__content{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header__navigation{
+    display: flex;
+    align-items: center;
+}
+
+.header__menu{
+    border-right: solid 1px #FFFFFF;
+    padding: 14px 0px;
+}
+
+.header__menu__item{
+    text-decoration: none;
+    color: #FFFFFF;   
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin: 0px 25px 0px 0px;
+}
+
+.icon{
+    margin: 0px 15px 0px 10px;
+}
+
+.header__link{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.header__phone{
+    display: flex;
+    align-items: center;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.header__phone div {
+    padding-left: 8px;
+}
+
+.header__text{
+    width: 160px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-right: 45px;
+}
+
+.btn{
+    padding: 14px 19px;
+    background: #FF7400;
+    border: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* --- footer ---*/
+
+.footer{
+    height: 800px;
+}
+
+.footer__bg{
+    background-image: url(./images/photos/hero_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.footer__info{
+    height: 707px;
+}
+
+.footer__container{
+    width: 500px;
+    text-align: center;
+    padding-top: 332px;
+}
+
+.footer__text{
+    color: #D67E35;
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    margin-bottom: 20px;
+}
+
+.footer__text__big{
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.footer__discr{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.footer__elements{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item{
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 330px;
+    text-align: center;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+
+.footer__icon{
+    margin: 30px 0px 10px;
+}
+
+.text{
+    font-size: 26px;
+    font-family: 'Tinos';
+}
+.footer__item__title{
+    margin-bottom: 20px;
+}
+
+.footer__item__discr{
+    color: #656363;
+    padding: 0px 20px;
+}
+
+/* --- history ---*/ 
+
+.history{
+    margin: 255px 0px 132px;
+}
+
+.history__container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.history__discr{
+    width: 444px;
+    height: 422px;
+}
+
+.history__title{
+    font-family: 'Tinos';
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+}
+
+.history__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+    margin: 21px 0px 80px;
+}
+
+.history__numbers{
+    display: flex;
+    justify-content: space-between;
+    width: 315px;
+    margin: 0 auto;
+}
+
+.history__count{
+    color: #BC9060;
+    font-size: 40px;
+}
+
+.history__count__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.history__footer{
+    background-image: url(./images/photos/delicious.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 357px;
+    margin-top: 122px;
+}
+
+.history__footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 102px 0px;
+}
+
+.history__footer__info{
+    width: 600px;
+}
+
+.history__footer__title{
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+
+    color: #D67E34;
+}
+
+.history__footer__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+}
+
+/* ---- dishes ---- */
+
+.dishes{
+    margin-bottom: 150px;
+}
+
+.dishes__title{
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000;
+    margin-bottom: 140px;
+    text-align: center;
+}
+
+.dishes__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dishes__menu{
+    padding: 11px 0px;
+}
+
+.dishes__menu__item{
+    width: 654px;
+    display: flex;
+    align-items: center;
+}
+
+.dishes__discr{
+    display: flex;
+    justify-content: space-between;
+    width: 464px;
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.dashed__line{
+    width: 200px;
+    height: 0px;
+    border: #000 0.8px dashed;
+}
+
+/* --- MENU --- */
+
+.menu{
+    background-image: url(./images/photos/MaskGroupmenubackgr.png);
+    height: 1036px;
+}
+
+.menu__block__title{
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 100px 0px 138px;
+}
+
+.menu__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__item{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    width: 350px;
+    height: 510px;
+}
+
+.special{
+    position: absolute;
+    padding: 11px;
+    background: #D67E34;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.menu__item__icon{
+    padding: 80px 0px 22px;
+    position: relative;
+}
+
+.circle{
+    width: 86px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 28px 0px;
+    background-color: #D67E34;
+    border: 7px solid #fff;
+    border-radius: 50%;
+    font-family: 'Cookie';
+    font-size: 30px;
+    color: #fff;
+
+    position: absolute;
+    top: 205px;
+    left: 191px;
+}
+
+.menu__title__text{
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.menu__title__subtext{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 34px;
+
+}
+
+.menu__title__button a{
+    padding: 14px 68px;
+    background: #FF7400;
+    border: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* --- review --- */
+
+.review{
+    background: #E5E5E5;
+    margin: 0px 0px 100px;
+}
+
+.review__block{
+    text-align: center;
+}
+
+.review__content{
+    width: 920px;
+    margin: 0 auto;
+}
+
+.review__title{
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    padding: 104px 0px 0px;
+    width: 920px;
+    margin: 0 auto;
+}
+
+.review__btn{
+    padding: 20px 0px 16px;
+}
+
+.review__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    padding-bottom: 139px;
+}
+
+.review__text span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #000000;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+/* --- GALLERY --- */ 
+
+.galery{
+    margin-bottom: 100px;
+}
+
+.gallery__title{
+    text-align: center;
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    padding-bottom: 60px;
+    color: #000000;
+}
+
+.gallery__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.two__photos{
+    display: flex;
+    justify-content: space-between;
+    width: 538px;
+    margin-top: 30px;
+}
+.two__photos__top{
+    display: flex;
+    justify-content: space-between;
+    width: 538px;
+    margin: 0px 0px 30px;
+}
+ 
+.table{
+    height: 274px;
+}
+
+/* ---- chef ---*/
+
+.chef{
+    margin: 100px 0px;
+}
+
+.chef__images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reservation{
+    background-image: url(./images/photos/MAKE_A_RESERVATION.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 732px;
+}
+
